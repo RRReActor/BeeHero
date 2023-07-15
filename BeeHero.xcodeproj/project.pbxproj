@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9F1736D2A62C8FA0058ECC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1736C2A62C8FA0058ECC6 /* AppDelegate.swift */; };
+		F9F1736F2A62C8FA0058ECC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1736E2A62C8FA0058ECC6 /* ContentView.swift */; };
+		F9F173712A62C8FA0058ECC6 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F9F173702A62C8FA0058ECC6 /* Experience.rcproject */; };
+		F9F173732A62C8FC0058ECC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9F173722A62C8FC0058ECC6 /* Assets.xcassets */; };
+		F9F173762A62C8FC0058ECC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9F173752A62C8FC0058ECC6 /* Preview Assets.xcassets */; };
+		F9F173802A62C8FC0058ECC6 /* BeeHeroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1737F2A62C8FC0058ECC6 /* BeeHeroTests.swift */; };
+		F9F1738A2A62C8FC0058ECC6 /* BeeHeroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F173892A62C8FC0058ECC6 /* BeeHeroUITests.swift */; };
+		F9F1738C2A62C8FC0058ECC6 /* BeeHeroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1738B2A62C8FC0058ECC6 /* BeeHeroUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9F1737C2A62C8FC0058ECC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9F173612A62C8FA0058ECC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9F173682A62C8FA0058ECC6;
+			remoteInfo = BeeHero;
+		};
+		F9F173862A62C8FC0058ECC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9F173612A62C8FA0058ECC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9F173682A62C8FA0058ECC6;
+			remoteInfo = BeeHero;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9F173692A62C8FA0058ECC6 /* BeeHero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeeHero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F1736C2A62C8FA0058ECC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9F1736E2A62C8FA0058ECC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F9F173702A62C8FA0058ECC6 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		F9F173722A62C8FC0058ECC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9F173752A62C8FC0058ECC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F9F1737B2A62C8FC0058ECC6 /* BeeHeroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeHeroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F1737F2A62C8FC0058ECC6 /* BeeHeroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeHeroTests.swift; sourceTree = "<group>"; };
+		F9F173852A62C8FC0058ECC6 /* BeeHeroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeHeroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F173892A62C8FC0058ECC6 /* BeeHeroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeHeroUITests.swift; sourceTree = "<group>"; };
+		F9F1738B2A62C8FC0058ECC6 /* BeeHeroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeHeroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9F173662A62C8FA0058ECC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F173782A62C8FC0058ECC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F173822A62C8FC0058ECC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9F173602A62C8FA0058ECC6 = {
+			isa = PBXGroup;
+			children = (
+				F9F1736B2A62C8FA0058ECC6 /* BeeHero */,
+				F9F1737E2A62C8FC0058ECC6 /* BeeHeroTests */,
+				F9F173882A62C8FC0058ECC6 /* BeeHeroUITests */,
+				F9F1736A2A62C8FA0058ECC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9F1736A2A62C8FA0058ECC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9F173692A62C8FA0058ECC6 /* BeeHero.app */,
+				F9F1737B2A62C8FC0058ECC6 /* BeeHeroTests.xctest */,
+				F9F173852A62C8FC0058ECC6 /* BeeHeroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9F1736B2A62C8FA0058ECC6 /* BeeHero */ = {
+			isa = PBXGroup;
+			children = (
+				F9F1736C2A62C8FA0058ECC6 /* AppDelegate.swift */,
+				F9F1736E2A62C8FA0058ECC6 /* ContentView.swift */,
+				F9F173702A62C8FA0058ECC6 /* Experience.rcproject */,
+				F9F173722A62C8FC0058ECC6 /* Assets.xcassets */,
+				F9F173742A62C8FC0058ECC6 /* Preview Content */,
+			);
+			path = BeeHero;
+			sourceTree = "<group>";
+		};
+		F9F173742A62C8FC0058ECC6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F9F173752A62C8FC0058ECC6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F9F1737E2A62C8FC0058ECC6 /* BeeHeroTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9F1737F2A62C8FC0058ECC6 /* BeeHeroTests.swift */,
+			);
+			path = BeeHeroTests;
+			sourceTree = "<group>";
+		};
+		F9F173882A62C8FC0058ECC6 /* BeeHeroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9F173892A62C8FC0058ECC6 /* BeeHeroUITests.swift */,
+				F9F1738B2A62C8FC0058ECC6 /* BeeHeroUITestsLaunchTests.swift */,
+			);
+			path = BeeHeroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9F173682A62C8FA0058ECC6 /* BeeHero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9F1738F2A62C8FC0058ECC6 /* Build configuration list for PBXNativeTarget "BeeHero" */;
+			buildPhases = (
+				F9F173652A62C8FA0058ECC6 /* Sources */,
+				F9F173662A62C8FA0058ECC6 /* Frameworks */,
+				F9F173672A62C8FA0058ECC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeeHero;
+			productName = BeeHero;
+			productReference = F9F173692A62C8FA0058ECC6 /* BeeHero.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9F1737A2A62C8FC0058ECC6 /* BeeHeroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9F173922A62C8FC0058ECC6 /* Build configuration list for PBXNativeTarget "BeeHeroTests" */;
+			buildPhases = (
+				F9F173772A62C8FC0058ECC6 /* Sources */,
+				F9F173782A62C8FC0058ECC6 /* Frameworks */,
+				F9F173792A62C8FC0058ECC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9F1737D2A62C8FC0058ECC6 /* PBXTargetDependency */,
+			);
+			name = BeeHeroTests;
+			productName = BeeHeroTests;
+			productReference = F9F1737B2A62C8FC0058ECC6 /* BeeHeroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9F173842A62C8FC0058ECC6 /* BeeHeroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9F173952A62C8FC0058ECC6 /* Build configuration list for PBXNativeTarget "BeeHeroUITests" */;
+			buildPhases = (
+				F9F173812A62C8FC0058ECC6 /* Sources */,
+				F9F173822A62C8FC0058ECC6 /* Frameworks */,
+				F9F173832A62C8FC0058ECC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9F173872A62C8FC0058ECC6 /* PBXTargetDependency */,
+			);
+			name = BeeHeroUITests;
+			productName = BeeHeroUITests;
+			productReference = F9F173852A62C8FC0058ECC6 /* BeeHeroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9F173612A62C8FA0058ECC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F9F173682A62C8FA0058ECC6 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					F9F1737A2A62C8FC0058ECC6 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = F9F173682A62C8FA0058ECC6;
+					};
+					F9F173842A62C8FC0058ECC6 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = F9F173682A62C8FA0058ECC6;
+					};
+				};
+			};
+			buildConfigurationList = F9F173642A62C8FA0058ECC6 /* Build configuration list for PBXProject "BeeHero" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9F173602A62C8FA0058ECC6;
+			productRefGroup = F9F1736A2A62C8FA0058ECC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9F173682A62C8FA0058ECC6 /* BeeHero */,
+				F9F1737A2A62C8FC0058ECC6 /* BeeHeroTests */,
+				F9F173842A62C8FC0058ECC6 /* BeeHeroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9F173672A62C8FA0058ECC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F173762A62C8FC0058ECC6 /* Preview Assets.xcassets in Resources */,
+				F9F173732A62C8FC0058ECC6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F173792A62C8FC0058ECC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F173832A62C8FC0058ECC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9F173652A62C8FA0058ECC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F1736F2A62C8FA0058ECC6 /* ContentView.swift in Sources */,
+				F9F1736D2A62C8FA0058ECC6 /* AppDelegate.swift in Sources */,
+				F9F173712A62C8FA0058ECC6 /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F173772A62C8FC0058ECC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F173802A62C8FC0058ECC6 /* BeeHeroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F173812A62C8FC0058ECC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F1738A2A62C8FC0058ECC6 /* BeeHeroUITests.swift in Sources */,
+				F9F1738C2A62C8FC0058ECC6 /* BeeHeroUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9F1737D2A62C8FC0058ECC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9F173682A62C8FA0058ECC6 /* BeeHero */;
+			targetProxy = F9F1737C2A62C8FC0058ECC6 /* PBXContainerItemProxy */;
+		};
+		F9F173872A62C8FC0058ECC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9F173682A62C8FA0058ECC6 /* BeeHero */;
+			targetProxy = F9F173862A62C8FC0058ECC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F9F1738D2A62C8FC0058ECC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9F1738E2A62C8FC0058ECC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9F173902A62C8FC0058ECC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BeeHero/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Y6C53RJLR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = superbee.BeeHero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9F173912A62C8FC0058ECC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BeeHero/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Y6C53RJLR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = superbee.BeeHero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F9F173932A62C8FC0058ECC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y6C53RJLR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = superbee.BeeHeroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeeHero.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeeHero";
+			};
+			name = Debug;
+		};
+		F9F173942A62C8FC0058ECC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y6C53RJLR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = superbee.BeeHeroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeeHero.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeeHero";
+			};
+			name = Release;
+		};
+		F9F173962A62C8FC0058ECC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y6C53RJLR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = superbee.BeeHeroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeeHero;
+			};
+			name = Debug;
+		};
+		F9F173972A62C8FC0058ECC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y6C53RJLR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = superbee.BeeHeroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeeHero;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9F173642A62C8FA0058ECC6 /* Build configuration list for PBXProject "BeeHero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F1738D2A62C8FC0058ECC6 /* Debug */,
+				F9F1738E2A62C8FC0058ECC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9F1738F2A62C8FC0058ECC6 /* Build configuration list for PBXNativeTarget "BeeHero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F173902A62C8FC0058ECC6 /* Debug */,
+				F9F173912A62C8FC0058ECC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9F173922A62C8FC0058ECC6 /* Build configuration list for PBXNativeTarget "BeeHeroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F173932A62C8FC0058ECC6 /* Debug */,
+				F9F173942A62C8FC0058ECC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9F173952A62C8FC0058ECC6 /* Build configuration list for PBXNativeTarget "BeeHeroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F173962A62C8FC0058ECC6 /* Debug */,
+				F9F173972A62C8FC0058ECC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9F173612A62C8FA0058ECC6 /* Project object */;
+}
